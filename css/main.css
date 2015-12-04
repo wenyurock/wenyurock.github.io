@@ -8,6 +8,8 @@ body {font-size: 1em;
 }
 
 h1 {
-	background-color: #E08C2A
+	background-color: #E08C2A;
 	text-align: center;
+	border: 5px;
+	border-style: dashed;
 }
