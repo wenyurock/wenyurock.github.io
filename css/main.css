@@ -17,3 +17,8 @@ h1 {
 	padding-bottom: 50px;
 	padding-top: 50px;
 }
+
+#mainContent{
+	margin-left: 75px;
+	margin-right: 75px;
+}
