@@ -4,15 +4,15 @@ image.resize {
 }
 
 body {font-size: 1em;
-	  background-color: #6B75BE;
+	  background-color: #6F50035;
 }
 
 h1 {
 	font-family: 'Indie Flower', cursive;
-	background-color: #E08C2A;
+	background-color: #2F8F2F;
 	text-align: center;
 	border: 5px;
-	border-style: dashed;
+	border-style: solid;
 	margin-left: 10%;
 	margin-right: 10%;
 	padding-bottom: 5%;
