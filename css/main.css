@@ -3,7 +3,7 @@ body {font-size: 1em;
 }
 
 h1 {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Cookie', cursive;
 	background-color: #2F8F2F;
 	text-align: center;
 	border: 5px;
@@ -12,6 +12,17 @@ h1 {
 	margin-right: 10%;
 	padding-bottom: 5%;
 	padding-top: 5%;
+}
+
+#mainContent {
+	margin-left: 150px;
+	margin-right: 75px;
+}
+
+.centerMe {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 }
 
 nav ul {
@@ -46,24 +57,54 @@ nav ul li a:hover {
 	color: #fff;
 }
 
-#mainContent{
-	margin-left: 150px;
-	margin-right: 75px;
+
+img {
+	max-width: 100%;
+	height: auto;
 }
 
-
-@media screen and (max-width: 600px) {
-	nav{
-		display: none;
-	}
-	#mainContent{
-		margin-left: 200%;
-		margin-right: 5%;
-	}
+.imgLeft {
+	float: left;
+	padding: 25px;
+	max-width: 50%;
 }
 
-.centerMe{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.imgRight {
+	float: right;
+	padding: 25px;
+	max-width: 50%;
+}
+
+@media screen and (max-width: 600px) {	
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: #f1f1f1;
+		width: 100%;
+		height: auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+
+	nav ul li a {
+		display: block;
+		text-decoration: none;
+		color: #000;
+		padding-left: 16px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-right: 16px;
+	}
+	
+	nav ul li {
+		float: left;
+	}
+	
+	#mainContent {
+		margin-left: 5%
+		margin-right: 5%
+		padding-top: 5%
+	}
 }
