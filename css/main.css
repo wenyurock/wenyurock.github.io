@@ -4,11 +4,11 @@ body {
 }
 
 p.small {
-		line-height: 10px;
+		line-height: 100px;
 }
 
 p.big {
-		line-height: 30px;
+		line-height: 300px;
 }
 
 h1 {
@@ -25,6 +25,7 @@ h1 {
 }
 
 #mainContent {
+		font-family: 'Alegreya', serif;
 		margin-left: 150px;
 		margin-right: 75px;
 }
@@ -68,7 +69,7 @@ nav ul li a:hover {
 }
 
 
-img.resize {
+.resize {
 		max-width: 100px;
 		height: auto;
 }
