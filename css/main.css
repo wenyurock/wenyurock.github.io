@@ -75,13 +75,13 @@ img {
 
 .imgLeft {
 		float: left;
-		padding: 25px;
+		padding: 15px;
 		max-width: 50%;
 }
 
 .imgRight {
 		float: right;
-		padding: 25px;
+		padding: 15px;
 		max-width: 50%;
 }
 
