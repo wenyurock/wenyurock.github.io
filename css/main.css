@@ -1,6 +1,6 @@
 body {
 		font-size: 1em;
-		background-color: #F8495A;
+		background-color: #E24040;
 }
 
 p.small {
@@ -13,15 +13,15 @@ p.big {
 
 h1 {
 		font-family: 'Cookie', cursive;
-		font-size: 5em;
-		background-color: #3FD33F;
+		font-size: 2em;
+		background-color: #30A950;
 		text-align: center;
 		border: 5px;
 		border-style: solid;
-		margin-left: 10%;
-		margin-right: 10%;
-		padding-bottom: 5%;
-		padding-top: 5%;
+		margin-left: 7%;
+		margin-right: 7%;
+		padding-bottom: 3%;
+		padding-top: 3%;
 }
 
 #mainContent {
@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 .active {
-		background-color: #3FD33F;
+		background-color: #30A950;
 		color: #fff;
 }
 
