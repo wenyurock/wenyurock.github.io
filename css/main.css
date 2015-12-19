@@ -3,6 +3,14 @@ body {
 		background-color: #F8495A;
 }
 
+p.small {
+		line-height: 10px;
+}
+
+p.big {
+		line-height: 30px;
+}
+
 h1 {
 		font-family: 'Cookie', cursive;
 		font-size: 2em;
