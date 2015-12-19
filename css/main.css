@@ -14,7 +14,7 @@ p.big {
 h1 {
 		font-family: 'Cookie', cursive;
 		font-size: 2em;
-		background-color: #30A950;
+		background-color: #30A950; 
 		text-align: center;
 		border: 5px;
 		border-style: solid;
@@ -68,10 +68,9 @@ nav ul li a:hover {
 		color: #fff;
 }
 
-
-.resize {
-		max-width: 100px;
-		height: auto;
+img {
+		max-width: 150px;
+		max-height: 100px;
 }
 
 .imgLeft {
