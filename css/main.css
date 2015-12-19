@@ -27,6 +27,13 @@ h1 {
 		margin-right: auto;
 }
 
+.newSize {
+		image.resize {
+			width: 500px;
+			height: auto;
+		}
+}
+
 nav ul {
 		list-style-type: none;
 		margin: 0;
