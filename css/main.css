@@ -1,13 +1,13 @@
 body {
 		font-size: 1em;
-		background-color: #FA1E33;
+		background-color: #6875BE;
 }
 
 h1 {
 		font-family: 'Cookie', cursive;
 		background-color: #2F8F2F;
 		text-align: center;
-		border: 3px;
+		border: 5px;
 		border-style: solid;
 		margin-left: 10%;
 		margin-right: 10%;
