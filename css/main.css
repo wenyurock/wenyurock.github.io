@@ -27,13 +27,6 @@ h1 {
 		margin-right: auto;
 }
 
-.newSize {
-		image.resize {
-				width: 100px;
-				height: auto;
-		}
-}
-
 nav ul {
 		list-style-type: none;
 		margin: 0;
@@ -67,8 +60,8 @@ nav ul li a:hover {
 }
 
 
-img {
-		max-width: 100%;
+img.resize {
+		max-width: 100px;
 		height: auto;
 }
 
@@ -112,8 +105,8 @@ img {
 	}
 	
 	#mainContent {
-			margin-left: 5%
-			margin-right: 5%
-			padding-top: 5%
+			margin-left: 5%;
+			margin-right: 5%;
+			padding-top: 5%;
 	}
 }
