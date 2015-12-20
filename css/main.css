@@ -16,7 +16,7 @@ h1 {
 		font-size: 2em;
 		background-color: #30A950; 
 		text-align: center;
-		border: 5px;
+		border: 2px;
 		border-style: solid;
 		margin-left: 7%;
 		margin-right: 7%;
@@ -75,14 +75,16 @@ img {
 
 .imgLeft {
 		float: left;
-		padding: 15px;
+		padding: 10px;
 		max-width: 50%;
+		max-height: 50%
 }
 
 .imgRight {
 		float: right;
-		padding: 15px;
+		padding: 10px;
 		max-width: 50%;
+		max-height: 50%
 }
 
 @media screen and (max-width: 600px) {	
